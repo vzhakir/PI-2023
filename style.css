@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h2 {
+    color: black;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: justified;
+    font-weight: bold;
+}
+
+p,
+li {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav {
+    padding: 2rem 0 2rem 0;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 2px 0px;
+    background-color: #61677A;
+}
+
+.nav-right {
+    display: flex;
+    gap: 6rem;
+}
+
+#hero-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me p {
+    width: 22.5rem;
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    padding: 2rem 0 0 0;
+}
+
+.projects-container {
+    padding: 0 0 rem 0;
+    width: 22.5rem;
+}
+
+.language-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.language-container h2 {
+    padding: 0 0 1rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#D8D9DA;
+    color: white;
+}
